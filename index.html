@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Frodo - Web3 Community Moderator & Manager</title>
+<style>
+.avatar-container {
+margin-bottom: 20px;
+}
+
+.avatar {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+border: 3px solid #c0a45e; /* Golden ring color */
+box-shadow: 0 0 20px rgba(192, 164, 94, 0.3);
+}
+
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+line-height: 1.6;
+color: #333;
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+background-color: #f4f1e8; /* Parchment-like background */
+}
+
+header {
+background: linear-gradient(135deg, #1c3021 0%, #0f3a10 100%); /* Shire greens */
+color: #f6e6be; /* Warm parchment color for text */
+padding: 40px 30px;
+text-align: center;
+border-radius: 5px 5px 0 0;
+box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+border-bottom: 3px solid #c0a45e; /* Golden ring accent */
+}
+
+h1 {
+margin: 0;
+font-size: 2.8em;
+letter-spacing: 1px;
+text-shadow: 0 2px 3px rgba(0,0,0,0.3);
+}
+
+h2 {
+color: #5c4827; /* Earthy brown */
+border-bottom: 2px solid #c0a45e; /* Golden ring color */
+padding-bottom: 8px;
+margin-top: 30px;
+font-size: 1.5em;
+letter-spacing: 0.5px;
+}
+
+h3 {
+color: #7d6e57; /* Softer brown */
+margin: 10px 0;
+font-weight: 400;
+font-size: 1.3em;
+}
+
+.container {
+background-color: #fffbf0; /* Lighter parchment */
+padding: 30px 40px;
+border-radius: 0 0 5px 5px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+border-left: 1px solid #e5d7b6;
+border-right: 1px solid #e5d7b6;
+border-bottom: 1px solid #e5d7b6;
+}
+
+.experience-item {
+margin-bottom: 25px;
+}
+
+.job-title {
+font-weight: bold;
+margin-bottom: 5px;
+font-size: 1.1em;
+}
+
+.company {
+color: #446024; /* Shire green */
+font-weight: bold;
+}
+
+.period {
+font-style: italic;
+color: #7d6e57;
+}
+
+ul {
+padding-left: 20px;
+}
+
+li {
+margin-bottom: 5px;
+}
+
+.skills {
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+margin-top: 15px;
+}
+
+.skill-tag {
+background-color: #e8f0dd; /* Light green */
+color: #446024; /* Shire green */
+padding: 6px 12px;
+border-radius: 15px;
+font-size: 0.9em;
+box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+transition: all 0.2s ease;
+border: 1px solid #d5e0c7;
+}
+
+.skill-tag:hover {
+background-color: #d5e0c7;
+transform: translateY(-1px);
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.contact {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+margin-top: 25px;
+}
+
+.contact strong {
+color: #5c4827;
+margin-right: 10px;
+}
+
+.contact a {
+color: #446024; /* Shire green */
+text-decoration: none;
+transition: color 0.2s ease;
+}
+
+.contact a:hover {
+color: #c0a45e; /* Golden ring color */
+text-decoration: underline;
+}
+
+hr {
+border: none;
+height: 1px;
+background-color: #e0d6b8; /* Light parchment divider */
+margin: 35px 0;
+}
+
+.language {
+display: inline-block;
+margin-right: 15px;
+}
+
+.language-name {
+font-weight: bold;
+}
+
+.language-level {
+font-style: italic;
+color: #7d6e57;
+}
+
+.highlight {
+font-weight: bold;
+color: #446024; /* Shire green */
+}
+
+.tagline {
+font-style: italic;
+color: #f0e3c2; /* Light parchment */
+margin-top: 10px;
+font-size: 0.9em;
+text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.summary-text {
+line-height: 1.8;
+}
+
+/* One Ring styling */
+.ring-container {
+display: inline-block;
+width: 80px;
+height: 80px;
+margin-top: 10px;
+}
+
+.one-ring {
+width: 100%;
+height: 100%;
+filter: drop-shadow(0 0 5px rgba(192, 164, 94, 0.5));
+transition: transform 0.3s ease;
+}
+
+.one-ring:hover {
+transform: scale(1.05);
+}
+</style>
+</head>
+<body>
+<header>
+<div class="avatar-container">
+<img src="frodo-avatar.jpg" alt="Frodo's Avatar" class="avatar">
+</div>
+<h1>FRODO</h1>
+<h3>Web3 Community Moderator & Manager </h3>
+<p class="tagline">"Not all those who wander in Web3 are lost"</p>
+<div class="ring-container">
+<img src="one-ring.png" alt="The One Ring" class="one-ring">
+</div>
+</header>
+
+<div class="container">
+<section>
+<h2>PROFESSIONAL SUMMARY</h2>
+<p class="summary-text">Accomplished Web3 professional with <span class="highlight">5+ years</span> of Discord platform expertise and <span class="highlight">2+ years</span> in strategic community management and moderation. Demonstrated success in server development, partnership cultivation, and cross-functional team leadership. Recognized for creating thriving digital communities with meaningful engagement and effective governance.</p>
+</section>
+
+<hr>
+
+<section>
+<h2>ABOUT ME</h2>
+<p class="summary-text">Like my namesake from Middle-earth, I believe that even the smallest individual can make a significant difference in the vast landscape of Web3. My journey in community management began with gaming servers and has evolved into a passion for building authentic digital communities where every member feels valued.</p>
+<p class="summary-text">With experience managing communities of over <span class="highlight">120,000 members</span>, I approach each challenge with patience, diplomacy, and a steadfast commitment to fostering positive interactions. My philosophy centers on creating spaces where innovation thrives, conflicts are resolved constructively, and every voice contributes to the collective journey.</p>
+<p class="summary-text">When I'm not navigating the realms of Discord and Telegram, you'll find me exploring new Web3 technologies and continuously learning to better serve the communities I help guide.</p>
+</section>
+
+<hr>
+
+<section>
+<h2>PROFESSIONAL EXPERIENCE</h2>
+
+<div class="experience-item">
+<p class="job-title"><span class="company">GAIB</span> - Community Moderator <span class="period">(Current)</span></p>
+<ul>
+<li>Lead moderation efforts for a community of <span class="highlight">120,000+ members</span></li>
+<li>Oversee ambassador program, providing leadership and strategic direction</li>
+<li>Develop and manage key partnerships and collaborative initiatives</li>
+<li>Implement and enforce community standards to maintain a professional environment</li>
+<li>Coordinate community events and address member inquiries with prompt resolution</li>
+</ul>
+</div>
+
+<div class="experience-item">
+<p class="job-title"><span class="company">ZkAGI</span> - Ambassador <span class="period">(Current)</span></p>
+<ul>
+<li>Develop engaging Web3 content aligned with project goals and vision</li>
+<li>Lead CZ/SK regional channel operations and community development</li>
+<li>Facilitate constructive discussion and maintain community integrity through effective moderation</li>
+</ul>
+</div>
+
+<div class="experience-item">
+<p class="job-title"><span class="company">Gaming Communities</span> - Server Administrator <span class="period">(Previous)</span></p>
+<ul>
+<li>Directed operations for two gaming servers with <span class="highlight">10,000+ members each</span></li>
+<li>Fostered vibrant, engaged communities through strategic planning and implementation</li>
+<li>Managed complete server operations with full administrative responsibility</li>
+<li>Implemented and configured technical solutions through Discord bot integration</li>
+<li>Executed server architecture development for optimal community experience</li>
+</ul>
+</div>
+</section>
+
+<hr>
+
+<section>
+<h2>CORE COMPETENCIES</h2>
+<div class="skills">
+<span class="skill-tag">Team Leadership</span>
+<span class="skill-tag">Community Leadership</span>
+<span class="skill-tag">Discord Administration</span>
+<span class="skill-tag">Server Architecture</span>
+<span class="skill-tag">Moderation Systems</span>
+<span class="skill-tag">Conflict Resolution</span>
+<span class="skill-tag">Web3 Ecosystem Knowledge</span>
+<span class="skill-tag">Strategic Communications</span>
+<span class="skill-tag">Event Management</span>
+<span class="skill-tag">Partnership Development</span>
+</div>
+</section>
+
+<hr>
+
+<section>
+<h2>LANGUAGE PROFICIENCIES</h2>
+<div class="skills">
+<span class="skill-tag">English (B2)</span>
+<span class="skill-tag">Czech (Native)</span>
+<span class="skill-tag">Russian (Native)</span>
+</div>
+</section>
+
+<hr>
+
+<section>
+<h2>CONTACT INFORMATION</h2>
+<div class="contact">
+<strong>Contact me on:</strong>
+<a href="https://discord.com/users/@frodoo07">Discord: @frodoo07</a>
+<span>|</span>
+<a href="https://t.me/frodoo07">Telegram: @frodoo07</a>
+</div>
+</section>
+</div>
+</body>
+</html>
