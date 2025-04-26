@@ -202,6 +202,91 @@ transition: transform 0.3s ease;
 .one-ring:hover {
 transform: scale(1.05);
 }
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    .container {
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 2.2em;
+    }
+    
+    h2 {
+        font-size: 1.3em;
+    }
+    
+    h3 {
+        font-size: 1.1em;
+    }
+    
+    .avatar {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .ring-container {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contact {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .contact span {
+        display: none; /* Hide the separator bars on mobile */
+    }
+    
+    .contact a {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        background-color: rgba(232, 240, 221, 0.5);
+        border-radius: 8px;
+        display: block;
+    }
+    
+    .contact a:hover {
+        background-color: #e8f0dd;
+    }
+    
+    .skills {
+        justify-content: center;
+    }
+    
+    .skill-tag {
+        font-size: 0.8em;
+    }
+    
+    header {
+        padding: 30px 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 1.8em;
+    }
+    
+    .avatar {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .ring-container {
+        width: 50px;
+        height: 50px;
+    }
+}
 </style>
 </head>
 <body>
